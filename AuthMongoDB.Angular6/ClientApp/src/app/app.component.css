@@ -1,0 +1,66 @@
+/*------------------------------------------------------------------
+  [Splash screen]
+*/
+.be-splash-screen {
+  background-color: #eee;
+}
+
+  .be-splash-screen .be-wrapper {
+    padding-top: 0;
+  }
+
+    .be-splash-screen .be-wrapper .be-content {
+      margin: 0;
+    }
+
+.splash-container {
+  max-width: 401px;
+  margin: 50px auto;
+}
+
+  .splash-container .panel {
+    margin-bottom: 30px;
+  }
+
+    .splash-container .panel .panel-heading {
+      text-align: center;
+      margin-bottom: 20px;
+      padding-top: 40px;
+      padding-bottom: 0;
+    }
+
+    .splash-container .panel .panel-body {
+      padding: 20px 30px 15px;
+    }
+
+      .splash-container .panel .panel-body .be-checkbox {
+        display: inline-block;
+        padding: 0;
+      }
+
+@media (max-width: 767px) {
+  .splash-container {
+    margin-top: 50px;
+  }
+}
+
+.splash-title {
+  text-align: center;
+  display: block;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.splash-description {
+  text-align: center;
+  display: block;
+  line-height: 20px;
+  font-size: 13px;
+  color: #5a5a5a;
+  margin-top: 11px;
+  padding-bottom: 10px;
+}
+
+.splash-footer {
+  text-align: center;
+}

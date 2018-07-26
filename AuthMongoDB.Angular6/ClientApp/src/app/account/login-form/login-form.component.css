@@ -1,0 +1,28 @@
+/*------------------------------------------------------------------
+  [Login]
+*/
+.login-tools {
+  padding-top: 18px;
+}
+
+.login-forgot-password {
+  line-height: 22px;
+  text-align: right;
+}
+
+.login-submit {
+  padding-top: 19px;
+  margin-bottom: 18px;
+}
+
+  .login-submit .btn {
+    width: 100%;
+  }
+
+  .login-submit > div:first-child {
+    padding-right: 10px;
+  }
+
+  .login-submit > div:last-child {
+    padding-left: 10px;
+  }
